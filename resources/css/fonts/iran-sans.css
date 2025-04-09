@@ -1,0 +1,5 @@
+@font-face {
+    font-family: iran-sans;
+    src: url("../../fonts/iran-sans/iran-sans-400.woff") format("woff"),
+    url("../../fonts/iran-sans/iran-sans-400.woff2") format("woff2");
+}
