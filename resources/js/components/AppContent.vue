@@ -2,11 +2,19 @@
 
 import { SidebarInset } from '@/components/ui/sidebar';
 import AppHeader from '@/components/AppHeader.vue';
+
+import { BreadcrumbItemType } from '@/types';
+
+interface Props {
+    breadcrumbs?: BreadcrumbItemType[]
+}
+
+defineProps<Props>()
 </script>
 
 <template>
     <SidebarInset>
-        <AppHeader/>
+        <AppHeader :breadcrumbs="breadcrumbs"/>
         <slot/>
     </SidebarInset>
 </template>
