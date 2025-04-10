@@ -24,7 +24,7 @@ class LoginRequest extends FormRequest
         return [
             'login' => ['required','string',"exists:users,{$this->loginKey()}"],
             'password' => ['required','string'],
-            'remember' => ['bool']
+            'remember' => ['required','bool']
         ];
     }
 
