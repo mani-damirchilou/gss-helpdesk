@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Pipes;
+namespace App\Pipes\Auth;
 
 use App\Dto\LoginDto;
 use Illuminate\Support\Facades\Auth;
